@@ -1,15 +1,15 @@
 #pragma once
 #include <string>
-using namespace std;
 class student
 {
     public:
-    student(string n,int i,int s);
-   
+    student(std::string n, std::string i, int s);
+
     void setscore(int new_s);
-    void print();
+    void print() const;
+
     private:
-    string name;
+    std::string name;
+    std::string id;
     int score;
-    int id;
 };
