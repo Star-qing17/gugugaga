@@ -11,7 +11,10 @@ hsv_mask/
 ├── images/
 │   └── armor.png         # 装甲板图片
 ├── results/
-│   └── red_mask.png      # 程序运行后生成的红色二值掩膜
+│   ├── red_mask.png      # 程序运行后生成的红色二值掩膜
+│   ├── H_channel.png     # H 通道
+│   ├── S_channel.png     # S 通道
+│   └── V_channel.png     # V 通道
 └── src/
     └── main.cpp          # 源代码
 ```
